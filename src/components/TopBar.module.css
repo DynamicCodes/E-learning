@@ -1,0 +1,148 @@
+.cdac2Icon {
+  height: 86px;
+  width: 61px;
+  position: relative;
+  object-fit: cover;
+}
+.centreForDevelopment {
+  width: 288px;
+  height: 47px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.title {
+  width: 407px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.explore1 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  white-space: nowrap;
+}
+.frameChild {
+  width: 14.2px;
+  height: 14.2px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.explore,
+.exploreInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.exploreInner {
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  margin-left: -42px;
+}
+.explore {
+  width: 132px;
+  flex-direction: row;
+  padding: 0 var(--padding-21xl) 0 0;
+  box-sizing: border-box;
+}
+.assignment,
+.certificate1 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+}
+.assignment {
+  flex: 1;
+}
+.certificate1 {
+  width: 121px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.assignmentCertificate,
+.certificate,
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.assignmentCertificate {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-mini);
+}
+.certificate,
+.content {
+  max-width: 100%;
+}
+.certificate {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-16xl) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+  color: var(--color-lightseagreen-100);
+}
+.content {
+  width: 909px;
+  flex-direction: row;
+  gap: var(--gap-7xs);
+  flex-shrink: 0;
+}
+.notificationIcon {
+  width: 63.2px;
+  height: 63.2px;
+  position: relative;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.notificationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-5xs-8);
+}
+.topBar {
+  width: 1346.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .title {
+    display: none;
+  }
+  .content {
+    width: 502px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .centreForDevelopment {
+    display: none;
+  }
+  .title {
+    width: 119px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .assignmentCertificate {
+    display: none;
+  }
+}

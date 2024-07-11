@@ -1,0 +1,257 @@
+.hiringPartners {
+  margin: 0;
+  width: 512px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.hiringPartnersWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-45xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-whitesmoke);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.frameInner,
+.frameItem {
+  position: absolute;
+  top: 44px;
+  left: 1003px;
+  border-radius: var(--br-33xl);
+  background-color: var(--color-white);
+  width: 224px;
+  height: 80px;
+  z-index: 1;
+}
+.frameInner {
+  top: 0;
+  left: 0;
+}
+.sakshank,
+.technologies {
+  margin: 0;
+}
+.sakshankTechnologies {
+  position: absolute;
+  top: 9px;
+  left: 27px;
+  font-weight: 800;
+  display: inline-block;
+  width: 238px;
+  height: 96px;
+  z-index: 2;
+}
+.rectangleDiv,
+.rectangleGroup {
+  position: absolute;
+  top: 43px;
+  left: 71px;
+  width: 265px;
+  height: 105px;
+}
+.rectangleDiv {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-33xl);
+  background-color: var(--color-white);
+  width: 224px;
+  height: 80px;
+  z-index: 1;
+}
+.kalvium {
+  position: absolute;
+  top: 27px;
+  left: 60px;
+  font-weight: 800;
+  display: inline-block;
+  width: 238px;
+  height: 96px;
+  z-index: 2;
+}
+.frameChild1,
+.rectangleContainer {
+  position: absolute;
+  top: 44px;
+  left: 304px;
+  width: 298px;
+  height: 123px;
+}
+.frameChild1 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-33xl);
+  background-color: var(--color-white);
+  width: 224px;
+  height: 80px;
+  z-index: 1;
+}
+.noduko {
+  position: absolute;
+  top: 28px;
+  left: 65px;
+  font-weight: 800;
+  display: inline-block;
+  width: 238px;
+  height: 96px;
+  z-index: 2;
+}
+.frameDiv {
+  position: absolute;
+  top: 43px;
+  left: 537px;
+  width: 303px;
+  height: 124px;
+}
+.frameChild2,
+.polygonIcon {
+  position: absolute;
+  z-index: 1;
+}
+.polygonIcon {
+  top: 68px;
+  left: 18px;
+  width: 40px;
+  height: 30px;
+  object-fit: contain;
+}
+.frameChild2 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-33xl);
+  background-color: var(--color-white);
+  width: 224px;
+  height: 80px;
+}
+.sodales,
+.solution {
+  margin: 0;
+}
+.sodalesSolution {
+  position: absolute;
+  top: 13px;
+  left: 56px;
+  font-weight: 800;
+  display: inline-block;
+  width: 238px;
+  height: 96px;
+  z-index: 2;
+}
+.netWebTechnology,
+.rectangleParent1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.rectangleParent1 {
+  bottom: 0;
+  width: 294px;
+}
+.netWebTechnology {
+  font-weight: 800;
+  display: inline-block;
+  width: 100%;
+  z-index: 2;
+}
+.frameChild3 {
+  position: absolute;
+  top: 17px;
+  left: 198px;
+  width: 40px;
+  height: 30px;
+  object-fit: contain;
+  z-index: 3;
+}
+.frameGroup,
+.netWebTechnologyParent {
+  position: absolute;
+  top: 13px;
+  left: 278px;
+  width: 238px;
+  height: 96px;
+}
+.frameGroup {
+  top: 44px;
+  left: 770px;
+  width: 516px;
+  height: 109px;
+}
+.rectangleParent {
+  align-self: stretch;
+  height: 167px;
+  position: relative;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-whitesmoke);
+  font-size: var(--font-size-5xl);
+  color: var(--color-lightseagreen-100);
+}
+.frameParent,
+.placementPageInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.placementPageInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-47xl) var(--padding-116xl-3) var(--padding-51xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 825px) {
+  .hiringPartners {
+    font-size: var(--font-size-32xl);
+  }
+  .hiringPartnersWrapper,
+  .placementPageInner {
+    padding-left: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .placementPageInner {
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-14xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .hiringPartners {
+    font-size: var(--font-size-19xl);
+  }
+  .kalvium,
+  .netWebTechnology,
+  .noduko,
+  .sakshankTechnologies,
+  .sodalesSolution {
+    font-size: var(--font-size-lgi);
+  }
+  .placementPageInner {
+    padding-bottom: var(--padding-69xl);
+    box-sizing: border-box;
+  }
+}

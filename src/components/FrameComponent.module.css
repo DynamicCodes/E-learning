@@ -1,0 +1,93 @@
+.frameChild {
+  width: 327px;
+  height: 383.3px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.frameItem {
+  height: 140px;
+  width: 137.7px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.btechElectronics,
+.fullStackDeveloper,
+.p,
+.rajKapur {
+  margin: 0;
+}
+.rajKapurBtechContainer {
+  position: relative;
+  font-weight: 300;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.ellipseParent,
+.rajKapurBtechElectronics20Wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rajKapurBtechElectronics20Wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-16xl-1) 0 0;
+  box-sizing: border-box;
+  min-width: 86px;
+}
+.ellipseParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-24xl-2);
+}
+.loremIpsumIs,
+.loremIpsumIs1 {
+  margin: 0;
+}
+.loremIpsumIsContainer {
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+  z-index: 1;
+}
+.loremIpsumIsSimplyDummyTeWrapper,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.loremIpsumIsSimplyDummyTeWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-3xl) 0 var(--padding-base);
+}
+.rectangleParent {
+  width: 327px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-xs-9) var(--padding-9xs) var(--padding-6xs-3)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-8xl-1);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .frameItem {
+    flex: 1;
+  }
+  .ellipseParent {
+    flex-wrap: wrap;
+    gap: var(--gap-3xl);
+  }
+}

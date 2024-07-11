@@ -1,0 +1,144 @@
+.contactUs {
+  width: 512.5px;
+  position: absolute;
+  margin: 0 !important;
+  right: -163px;
+  bottom: 108.3px;
+  display: inline-block;
+  z-index: 1;
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.placementPageInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 22.3px 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild {
+  height: 96px;
+  width: 488px;
+  position: absolute;
+  margin: 0 !important;
+  right: -76px;
+  bottom: -38px;
+}
+.frameItem {
+  height: 96px;
+  width: 337px;
+  position: relative;
+  border-radius: var(--br-47xl);
+  background-color: var(--color-gainsboro-100);
+  display: none;
+  max-width: 100%;
+}
+.signIn {
+  width: 171px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-47xl);
+  background-color: var(--color-gainsboro-100);
+  justify-content: flex-end;
+  padding: var(--padding-2xl) var(--padding-41xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 1;
+}
+.placementPageChild,
+.rectangleParent,
+.vectorParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.vectorParent {
+  width: 337px;
+  justify-content: flex-start;
+  position: relative;
+}
+.placementPageChild {
+  width: 1391px;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 28.3px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-lightseagreen-200);
+  font-family: var(--font-heebo);
+}
+.testimonialContainerParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 54.7px;
+  max-width: 100%;
+}
+.frameSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-38xl) 0 var(--padding-42xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.placementPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-paleturquoise-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 34.7px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 825px) {
+  .testimonialContainerParent {
+    gap: var(--gap-8xl);
+  }
+  .frameSection {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+  .placementPage {
+    gap: var(--gap-mid);
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactUs {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangleParent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

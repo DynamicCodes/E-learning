@@ -1,0 +1,621 @@
+.homepageChild {
+  height: 98px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-paleturquoise-100);
+  display: none;
+  max-width: 100%;
+}
+.homepageItem,
+.icons8User902 {
+  height: 76px;
+  width: 83px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.icons8User902 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.homepage,
+.icons8User902Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.homepage {
+  align-self: stretch;
+  background-color: var(--color-paleturquoise-100);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-8xs) var(--padding-7xs)
+    var(--padding-mini);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.practiceSession {
+  width: 283px;
+  position: relative;
+  display: inline-block;
+}
+.practiceButtonDSAChild {
+  height: 111px;
+  width: 704px;
+  position: relative;
+  border-radius: var(--br-28xl);
+  border: 1px solid var(--color-lightseagreen-200);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.c {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.practiceButtonDSAC {
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.practiceButtonDSAIllustraChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro-100);
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 1;
+}
+.practiceButtonDSAIllustra1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-lightseagreen-200);
+  width: 385px;
+  height: 14px;
+  z-index: 2;
+}
+.practiceButtonDSAIllustra {
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  z-index: 1;
+}
+.practiceButtonDSACParent,
+.practiceButtonDSAInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.practiceButtonDSACParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.practiceButtonDSAInner {
+  width: 400px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-29xl);
+  background-color: var(--color-lightseagreen-200);
+  width: 154px;
+  height: 48px;
+  z-index: 1;
+}
+.continue {
+  position: absolute;
+  top: 9px;
+  left: 22px;
+  display: inline-block;
+  width: 142px;
+  height: 30px;
+  z-index: 2;
+}
+.rectangleParent {
+  height: 48px;
+  width: 164px;
+  position: relative;
+  flex-shrink: 0;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.practiceButtonDSA,
+.practiceButtonDSAParent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.practiceButtonDSA {
+  border-radius: var(--br-28xl);
+  border: 1px solid var(--color-lightseagreen-200);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-smi) var(--padding-110xl) var(--padding-10xl);
+  gap: var(--gap-base);
+}
+.practiceButtonDSAParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-27xl);
+}
+.frameItem {
+  height: 111px;
+  width: 704px;
+  position: relative;
+  border-radius: var(--br-28xl);
+  border: 1px solid var(--color-lightseagreen-200);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.java {
+  width: 144px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.practiceButtonJavaIllustratChild {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  background-color: var(--color-gainsboro-100);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.practiceButtonJavaIllustratItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-lightseagreen-200);
+  width: 184px;
+  height: 14px;
+  z-index: 2;
+}
+.practiceButtonJavaIllustrat1 {
+  height: 14px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.practiceButtonJavaIllustrat,
+.practiceButtonJavaTitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.practiceButtonJavaIllustrat {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.practiceButtonJavaTitle {
+  width: 405px;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  flex-shrink: 0;
+}
+.practiceButtonJavaContinue1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-29xl);
+  background-color: var(--color-lightseagreen-200);
+  width: 154px;
+  height: 48px;
+  z-index: 1;
+}
+.continue1 {
+  position: absolute;
+  top: 10px;
+  left: 21px;
+  display: inline-block;
+  width: 142px;
+  height: 30px;
+  z-index: 2;
+}
+.practiceButtonJavaContinue {
+  height: 48px;
+  width: 163px;
+  position: relative;
+  flex-shrink: 0;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.practiceButtonContainer,
+.rectangleGroup {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleGroup {
+  align-self: stretch;
+  border-radius: var(--br-28xl);
+  border: 1px solid var(--color-lightseagreen-200);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-4xl) 127px var(--padding-7xl);
+  gap: var(--gap-xs);
+}
+.practiceButtonContainer {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 66px;
+  min-width: 458px;
+}
+.java1 {
+  margin: 0;
+  width: 147px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.javaSessionsHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+.javaSessionItemsChild {
+  height: 82px;
+  width: 532px;
+  position: relative;
+  border-radius: var(--br-35xl);
+  background-color: var(--color-gainsboro-100);
+  display: none;
+  max-width: 100%;
+}
+.learnJava {
+  width: 186px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.javaSessionItems,
+.javaSessionItemsItem {
+  border-radius: var(--br-35xl);
+  background-color: var(--color-gainsboro-100);
+  max-width: 100%;
+}
+.javaSessionItems {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-mini) var(--padding-xl) var(--padding-4xl);
+  box-sizing: border-box;
+}
+.javaSessionItemsItem {
+  height: 82px;
+  width: 532px;
+  position: relative;
+  display: none;
+}
+.logicBuildingIn {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.javaSessionItems1,
+.javaSessionItemsInner {
+  border-radius: var(--br-35xl);
+  background-color: var(--color-gainsboro-100);
+  max-width: 100%;
+}
+.javaSessionItems1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-lg)
+    var(--padding-17xl);
+  box-sizing: border-box;
+}
+.javaSessionItemsInner {
+  height: 82px;
+  width: 532px;
+  position: relative;
+  display: none;
+}
+.beginnerDsaIn {
+  width: 331px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.javaSessionItems2,
+.rectangleDiv {
+  border-radius: var(--br-35xl);
+  background-color: var(--color-gainsboro-100);
+  max-width: 100%;
+}
+.javaSessionItems2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-mini) var(--padding-xl) var(--padding-4xl)
+    var(--padding-30xl);
+  box-sizing: border-box;
+}
+.rectangleDiv {
+  height: 82px;
+  width: 532px;
+  position: relative;
+  display: none;
+}
+.advanceJava {
+  width: 217px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.javaSessionItems3 {
+  align-self: stretch;
+  border-radius: var(--br-35xl);
+  background-color: var(--color-gainsboro-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-xl) var(--padding-5xl)
+    var(--padding-32xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.javaSessionsList,
+.javaSessionsTitle {
+  align-self: stretch;
+  flex-direction: column;
+}
+.javaSessionsList {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15.3px;
+  max-width: 100%;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+}
+.javaSessionsTitle {
+  gap: var(--gap-4xl);
+}
+.javaSessions,
+.javaSessionsTitle,
+.practiceButtons,
+.practiceTitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.javaSessions {
+  width: 532px;
+  flex-direction: column;
+  padding: var(--padding-6xl) 0 0;
+  box-sizing: border-box;
+  min-width: 532px;
+  font-size: var(--font-size-45xl);
+  color: var(--color-lightseagreen-200);
+  font-family: var(--font-barlow-semi-condensed);
+}
+.practiceButtons,
+.practiceTitle {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 100px;
+}
+.practiceTitle {
+  flex-direction: column;
+  gap: 38px;
+}
+.moreSessions {
+  flex: 1;
+  position: relative;
+}
+.moreSessionsWrapper {
+  width: 304px;
+  flex-direction: row;
+  padding: 0 var(--padding-2xl);
+  box-sizing: border-box;
+}
+.moreSessionsWrapper,
+.practiceDashboard,
+.practiceHeader,
+.sessions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.practiceHeader {
+  flex: 1;
+  flex-direction: column;
+  gap: 80px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.practiceDashboard,
+.sessions {
+  box-sizing: border-box;
+}
+.sessions {
+  width: 1414px;
+  flex-direction: row;
+  padding: 0 var(--padding-20xl);
+  max-width: 100%;
+}
+.practiceDashboard {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 var(--padding-74xl);
+  gap: var(--gap-14xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1150px) {
+  .javaSessions {
+    flex: 1;
+  }
+  .practiceButtons {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .c,
+  .practiceSession {
+    font-size: var(--font-size-7xl);
+  }
+  .practiceButtonDSA {
+    flex-wrap: wrap;
+    padding-left: var(--padding-45xl);
+    padding-right: var(--padding-45xl);
+    box-sizing: border-box;
+  }
+  .java {
+    font-size: var(--font-size-7xl);
+  }
+  .rectangleGroup {
+    flex-wrap: wrap;
+    padding-left: var(--padding-44xl);
+    padding-right: var(--padding-44xl);
+    box-sizing: border-box;
+  }
+  .java1 {
+    font-size: var(--font-size-32xl);
+  }
+  .advanceJava,
+  .beginnerDsaIn,
+  .learnJava,
+  .logicBuildingIn {
+    font-size: var(--font-size-10xl);
+  }
+  .moreSessions {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .practiceButtonDSAParent {
+    gap: var(--gap-4xl);
+  }
+  .practiceButtonContainer {
+    gap: var(--gap-14xl);
+    min-width: 100%;
+  }
+  .javaSessions {
+    min-width: 100%;
+  }
+  .practiceButtons {
+    gap: var(--gap-31xl);
+  }
+  .practiceTitle {
+    gap: var(--gap-lgi);
+  }
+  .practiceHeader {
+    gap: var(--gap-21xl);
+  }
+  .practiceDashboard {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .c,
+  .continue,
+  .practiceSession {
+    font-size: var(--font-size-lgi);
+  }
+  .practiceButtonDSA {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .continue1,
+  .java {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangleGroup {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .practiceButtonContainer {
+    gap: var(--gap-base);
+  }
+  .java1 {
+    font-size: var(--font-size-19xl);
+  }
+  .beginnerDsaIn,
+  .learnJava,
+  .logicBuildingIn {
+    font-size: var(--font-size-3xl);
+  }
+  .javaSessionItems2 {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .advanceJava {
+    font-size: var(--font-size-3xl);
+  }
+  .javaSessionItems3 {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .practiceButtons {
+    gap: var(--gap-6xl);
+  }
+  .moreSessions {
+    font-size: var(--font-size-lgi);
+  }
+  .practiceHeader {
+    gap: var(--gap-xl);
+  }
+}

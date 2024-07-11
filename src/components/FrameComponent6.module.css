@@ -1,0 +1,181 @@
+.careerOutcomesAnd,
+.weWantTo {
+  margin: 0;
+}
+.weWantToContainer {
+  width: 982px;
+  position: absolute;
+  margin: 0 !important;
+  right: -118px;
+  bottom: 152px;
+  font-weight: 900;
+  display: inline-block;
+  z-index: 2;
+}
+.frameChild {
+  width: 764px;
+  height: 516.2px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.placementStats {
+  margin: 0;
+  position: absolute;
+  top: 64px;
+  left: 91px;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  display: inline-block;
+  width: 642px;
+  height: 78px;
+  z-index: 1;
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 83px;
+  height: 76px;
+  object-fit: contain;
+  z-index: 1;
+}
+.placementStatsParent {
+  align-self: stretch;
+  height: 142px;
+  position: relative;
+}
+.helpingOurLearnersget {
+  width: 496px;
+  position: relative;
+  font-weight: 900;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.helpingOurLearnersgetTheBeWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-36xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.rectangleParent,
+.weWantToEnsureThatOurLeaParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-base-2) var(--padding-5xs) var(--padding-180xl)
+    var(--padding-4xl);
+  box-sizing: border-box;
+  gap: var(--gap-22xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+}
+.weWantToEnsureThatOurLeaParent {
+  margin-left: -764px;
+  width: 764px;
+  flex-direction: row;
+  position: relative;
+  min-width: 764px;
+  max-width: 114%;
+}
+.separatorIcon {
+  height: 517px;
+  width: 676px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-744xl);
+  box-sizing: border-box;
+  row-gap: 20px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-lightseagreen-200);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1425px) {
+  .weWantToEnsureThatOurLeaParent {
+    flex: 1;
+    min-width: 100%;
+  }
+  .separatorIcon {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+    padding-left: var(--padding-362xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .weWantToEnsureThatOurLeaParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 825px) {
+  .placementStats {
+    font-size: var(--font-size-32xl);
+  }
+  .helpingOurLearnersget {
+    font-size: var(--font-size-7xl);
+  }
+  .helpingOurLearnersgetTheBeWrapper {
+    padding-left: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .rectangleParent {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-110xl);
+    box-sizing: border-box;
+  }
+  .weWantToEnsureThatOurLeaParent {
+    min-width: 100%;
+  }
+  .frameParent {
+    padding-left: var(--padding-171xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .placementStats {
+    font-size: var(--font-size-19xl);
+  }
+  .helpingOurLearnersget {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangleParent {
+    gap: var(--gap-xl);
+  }
+  .weWantToEnsureThatOurLeaParent {
+    min-width: 100%;
+  }
+  .frameParent {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

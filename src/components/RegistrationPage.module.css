@@ -1,0 +1,396 @@
+.registrationPageChild {
+  width: 617px;
+  height: 901px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.centreForDevelopment {
+  width: 385px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.cdac1Icon,
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.cdac1Icon {
+  top: 181px;
+  left: 215px;
+  width: 81px;
+  height: 115px;
+  object-fit: contain;
+  z-index: 2;
+}
+.vectorParent {
+  width: 100%;
+  height: 395px;
+  position: absolute;
+  margin: 0 !important;
+  top: -43px;
+  right: 0;
+  left: 0;
+}
+.centreForDevelopmentOfAdvaParent {
+  margin-top: -357px;
+  margin-right: -193.3px;
+  width: 805.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-146xl) var(--padding-xl) var(--padding-109xl)
+    var(--padding-289xl);
+  box-sizing: border-box;
+  position: relative;
+  flex-shrink: 0;
+  max-width: 193%;
+}
+.firstNameInput {
+  height: calc(100% - 3.2px);
+  width: calc(100% - 0.3px);
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -0.03px;
+  bottom: 3.2px;
+  left: 0.33px;
+  border-radius: var(--br-12xl);
+  background-color: var(--color-gainsboro-100);
+  transform: rotate(0.4deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.firstName {
+  width: 178px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.firstNameInputParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.firstNameInputParent {
+  flex: 1;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl) var(--padding-5xs);
+  position: relative;
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xs) 0 var(--padding-11xs);
+}
+.wrapper {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  font-family: var(--font-montserrat);
+  font-weight: 500;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.emailInput {
+  height: calc(100% - 3.2px);
+  width: calc(100% - 0.3px);
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 3.2px;
+  left: 0.3px;
+  border-radius: var(--br-12xl);
+  background-color: var(--color-gainsboro-100);
+  transform: rotate(0.4deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.eMailAddress {
+  width: 178px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.emailLastNameInput,
+.emailLastNameInputWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.emailLastNameInput {
+  flex: 1;
+  padding: var(--padding-xs) var(--padding-3xl) var(--padding-8xs);
+  position: relative;
+}
+.emailLastNameInputWrapper {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-9xs);
+}
+.frameItem {
+  height: calc(100% - 3.2px);
+  width: calc(100% - 0.3px);
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 3.2px;
+  left: 0.3px;
+  border-radius: var(--br-12xl);
+  background-color: var(--color-gainsboro-100);
+  transform: rotate(0.4deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.number {
+  width: 178px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.frameContainer,
+.frameGroup,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-5xl) var(--padding-8xs);
+  box-sizing: border-box;
+  position: relative;
+}
+.frameContainer,
+.frameGroup {
+  align-self: stretch;
+}
+.frameContainer {
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.frameGroup {
+  flex-direction: column;
+  gap: var(--gap-5xl-5);
+}
+.passwordInput {
+  height: calc(100% - 3.2px);
+  width: calc(100% - 0.3px);
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 3.2px;
+  left: 0.3px;
+  border-radius: var(--br-12xl);
+  background-color: var(--color-gainsboro-100);
+  transform: rotate(0.4deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.password {
+  width: 178px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.passwordConfirmInput {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-5xl) var(--padding-2xs);
+  position: relative;
+}
+.passwordConfirmInputChild {
+  height: calc(100% - 3.2px);
+  width: calc(100% - 0.3px);
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 3.2px;
+  left: 0.3px;
+  border-radius: var(--br-12xl);
+  background-color: var(--color-gainsboro-100);
+  transform: rotate(0.4deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.confirmPassword {
+  width: 239px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.passwordConfirmInput1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-5xl) var(--padding-4xs);
+  position: relative;
+}
+.frameDiv,
+.passwordConfirmInputParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.passwordConfirmInputParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frameDiv {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) var(--padding-mini);
+  box-sizing: border-box;
+}
+.frameInner {
+  width: 188px;
+  height: 39px;
+  position: relative;
+}
+.frameParent,
+.frameWrapper1 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameWrapper1 {
+  width: 384.1px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.frameParent {
+  margin: 0;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xl-3);
+  gap: var(--gap-7xl);
+  flex-shrink: 0;
+}
+.registrationPageItem {
+  margin-right: -326.5px;
+  width: 1096.6px;
+  position: relative;
+  max-height: 100%;
+  flex-shrink: 0;
+  max-width: 262%;
+  z-index: 1;
+}
+.registrationPage {
+  height: 834px;
+  width: 543px;
+  box-shadow: 0 10px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-264xl) var(--padding-61xl) var(--padding-71xl)
+    var(--padding-25xl);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .registrationPage {
+    padding: var(--padding-165xl) var(--padding-21xl) var(--padding-39xl)
+      var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .centreForDevelopmentOfAdvaParent {
+    padding-left: var(--padding-135xl);
+    box-sizing: border-box;
+  }
+  .registrationPage {
+    padding-top: var(--padding-101xl);
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .centreForDevelopment {
+    font-size: var(--font-size-lgi);
+  }
+  .centreForDevelopmentOfAdvaParent {
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-88xl);
+    padding-bottom: var(--padding-64xl);
+    box-sizing: border-box;
+  }
+  .confirmPassword,
+  .eMailAddress,
+  .firstName,
+  .number,
+  .password {
+    font-size: var(--font-size-base);
+  }
+}

@@ -1,0 +1,391 @@
+.myAccountChild {
+  width: 83px;
+  height: 76px;
+  position: relative;
+  object-fit: contain;
+  z-index: 2;
+}
+.contentBox {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 12px solid var(--color-lightseagreen-200);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.logOut,
+.myAccount1 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.logOut {
+  width: 143px;
+  display: inline-block;
+}
+.myAccountInner,
+.myAccountParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.myAccountParent {
+  width: 1409px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.myAccountInner {
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-2xs);
+  box-sizing: border-box;
+  max-width: 102%;
+  flex-shrink: 0;
+}
+.address,
+.blankLine,
+.blankLine1,
+.blankLine2,
+.blankLine3,
+.blankLine4,
+.blankLine5,
+.blankLine6,
+.dateOfBirth,
+.mailId,
+.name,
+.phoneNumber {
+  margin: 0;
+}
+.gender {
+  white-space: pre-wrap;
+}
+.blankLine7,
+.gender {
+  margin: 0;
+}
+.foreignLanguages {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.blankLine10,
+.blankLine8,
+.blankLine9,
+.languagesKnown,
+.qualification {
+  margin: 0;
+}
+.th {
+  white-space: pre-wrap;
+}
+.blankLine11,
+.th {
+  margin: 0;
+}
+.th1 {
+  white-space: pre-wrap;
+}
+.blankLine12,
+.th1 {
+  margin: 0;
+}
+.ugDegree {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.blankLine13 {
+  margin: 0;
+}
+.pgDegree {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.blankLine14,
+.blankLine15,
+.blankLine16,
+.certificateCourseifAny,
+.experienceDetailsifAny,
+.extraCurricular {
+  margin: 0;
+}
+.nameMailIdContainer {
+  align-self: stretch;
+  height: 1229px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.detailsList {
+  width: 802px;
+  height: 46px;
+  position: absolute;
+  margin: 0 !important;
+  top: 11px;
+  left: 118px;
+  border-radius: var(--br-20xl);
+  background-color: var(--color-gainsboro-200);
+  z-index: 2;
+}
+.detailsList1 {
+  width: 802px;
+  top: 84px;
+  left: 118px;
+}
+.detailsList1,
+.detailsList2,
+.detailsList3 {
+  height: 46px;
+  position: absolute;
+  margin: 0 !important;
+  border-radius: var(--br-20xl);
+  background-color: var(--color-gainsboro-200);
+  z-index: 2;
+}
+.detailsList2 {
+  width: 467px;
+  top: 157px;
+  left: 256px;
+}
+.detailsList3 {
+  width: 1194px;
+  top: 242px;
+  right: 29px;
+}
+.detailsList4 {
+  width: 1194px;
+  top: 303px;
+  right: 29px;
+}
+.detailsList10,
+.detailsList11,
+.detailsList12,
+.detailsList13,
+.detailsList4,
+.detailsList5,
+.detailsList6,
+.detailsList7,
+.detailsList8,
+.detailsList9 {
+  height: 46px;
+  position: absolute;
+  margin: 0 !important;
+  border-radius: var(--br-20xl);
+  background-color: var(--color-gainsboro-200);
+  z-index: 2;
+}
+.detailsList5 {
+  width: 246px;
+  top: 388px;
+  left: 244px;
+}
+.detailsList10,
+.detailsList11,
+.detailsList12,
+.detailsList13,
+.detailsList6,
+.detailsList7,
+.detailsList8,
+.detailsList9 {
+  width: 494px;
+}
+.detailsList6 {
+  top: 473px;
+  left: 154px;
+}
+.detailsList10,
+.detailsList11,
+.detailsList12,
+.detailsList13,
+.detailsList7,
+.detailsList8,
+.detailsList9 {
+  left: 322px;
+}
+.detailsList7 {
+  top: 552px;
+}
+.detailsList10,
+.detailsList11,
+.detailsList12,
+.detailsList13,
+.detailsList8,
+.detailsList9 {
+  bottom: 552px;
+}
+.detailsList10,
+.detailsList11,
+.detailsList12,
+.detailsList13,
+.detailsList9 {
+  bottom: 473px;
+  left: 218px;
+}
+.detailsList10,
+.detailsList11,
+.detailsList12,
+.detailsList13 {
+  width: 577px;
+  bottom: 400px;
+  left: 103px;
+}
+.detailsList11,
+.detailsList12,
+.detailsList13 {
+  bottom: 324px;
+}
+.detailsList12,
+.detailsList13 {
+  width: 511px;
+  bottom: 251px;
+  left: 201px;
+}
+.detailsList13 {
+  bottom: 175px;
+}
+.detailsList14 {
+  width: 916px;
+  right: 69px;
+  bottom: 91px;
+}
+.detailsList14,
+.detailsList15,
+.detailsList16 {
+  height: 46px;
+  position: absolute;
+  margin: 0 !important;
+  border-radius: var(--br-20xl);
+  background-color: var(--color-gainsboro-200);
+  z-index: 2;
+}
+.detailsList15 {
+  width: 916px;
+  right: 69px;
+  bottom: 21px;
+}
+.detailsList16 {
+  width: 384px;
+  top: 473px;
+  right: 16px;
+}
+.detailsList17,
+.detailsList18,
+.detailsList19,
+.detailsList20,
+.detailsList21,
+.detailsList22,
+.detailsList23,
+.detailsList24 {
+  width: 139px;
+  height: 46px;
+  position: absolute;
+  margin: 0 !important;
+  right: 422px;
+  bottom: 400px;
+  border-radius: var(--br-20xl);
+  background-color: var(--color-gainsboro-200);
+  z-index: 2;
+}
+.detailsList18,
+.detailsList19,
+.detailsList20,
+.detailsList21,
+.detailsList22,
+.detailsList23,
+.detailsList24 {
+  right: 69px;
+}
+.detailsList19,
+.detailsList20,
+.detailsList21,
+.detailsList22,
+.detailsList23,
+.detailsList24 {
+  bottom: 324px;
+}
+.detailsList20,
+.detailsList21,
+.detailsList22,
+.detailsList23,
+.detailsList24 {
+  bottom: 248px;
+}
+.detailsList21,
+.detailsList22,
+.detailsList23,
+.detailsList24 {
+  bottom: 172px;
+}
+.detailsList22,
+.detailsList23,
+.detailsList24 {
+  right: 422px;
+  bottom: 327px;
+}
+.detailsList23,
+.detailsList24 {
+  bottom: 254px;
+}
+.detailsList24 {
+  bottom: 161px;
+}
+.detailsContent,
+.detailsContentWrapper,
+.myAccount {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.detailsContent {
+  flex: 1;
+  flex-direction: column;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.detailsContentWrapper,
+.myAccount {
+  box-sizing: border-box;
+}
+.detailsContentWrapper {
+  width: 1399px;
+  flex-direction: row;
+  padding: 0 var(--padding-2xs);
+  max-width: 100%;
+}
+.myAccount {
+  position: relative;
+  background-color: var(--color-white);
+  border: 12px solid var(--color-lightseagreen-200);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-2xs) 0 var(--padding-smi) var(--padding-xl);
+  gap: var(--gap-2xs-5);
+  line-height: normal;
+  letter-spacing: normal;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-lightseagreen-200);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 767px) {
+  .nameMailIdContainer {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .nameMailIdContainer {
+    font-size: var(--font-size-lgi);
+  }
+}

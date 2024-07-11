@@ -1,0 +1,200 @@
+.academicDetails,
+.frameChild {
+  position: relative;
+  max-width: 100%;
+}
+.frameChild {
+  height: 67px;
+  width: 1428px;
+  background-color: var(--color-paleturquoise-200);
+  display: none;
+}
+.academicDetails {
+  width: 380px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: var(--color-paleturquoise-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-3xl) var(--padding-mini);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 2;
+}
+.frameItem,
+.frameWrapper {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+  max-width: 100%;
+}
+.frameItem {
+  height: 3px;
+  position: relative;
+  border-top: 3px dashed var(--color-black);
+  z-index: 1;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.level {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 85px;
+  z-index: 2;
+}
+.levelStream {
+  width: 129px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.stream {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 119px;
+  z-index: 2;
+}
+.levelStream1 {
+  width: 166px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.instituteBoarduniversity {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.instituteBoarduniversityWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  min-width: 301px;
+  max-width: 100%;
+}
+.passingYearDegree {
+  width: 400px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 115%;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.passingYearDegreeWrapper {
+  width: 348px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.division {
+  width: 275px;
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+  white-space: pre-wrap;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.academicInfo,
+.academicInfoWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.academicInfo {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.academicInfoWrapper {
+  width: 1427px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xl);
+  box-sizing: border-box;
+}
+.frameParent {
+  position: absolute;
+  top: 1660px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .academicDetails,
+  .division,
+  .instituteBoarduniversity,
+  .level,
+  .passingYearDegree,
+  .stream {
+    font-size: var(--font-size-7xl);
+  }
+  .division {
+    line-height: 26px;
+  }
+  .frameParent {
+    gap: var(--gap-mini);
+  }
+}
+@media screen and (max-width: 450px) {
+  .academicDetails,
+  .division,
+  .instituteBoarduniversity,
+  .level,
+  .passingYearDegree,
+  .stream {
+    font-size: var(--font-size-lgi);
+  }
+  .division {
+    line-height: 19px;
+  }
+}

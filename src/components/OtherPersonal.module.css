@@ -1,0 +1,72 @@
+.informationLabelsChild {
+  height: 67px;
+  width: 1428px;
+  position: relative;
+  background-color: var(--color-paleturquoise-200);
+  display: none;
+  max-width: 100%;
+}
+.otherInformation {
+  width: 323px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 3;
+}
+.frameChild,
+.informationLabels {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.informationLabels {
+  width: 1428px;
+  background-color: var(--color-paleturquoise-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-3xl) var(--padding-2xs);
+  z-index: 2;
+}
+.frameChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-top: 3px dashed var(--color-black);
+  z-index: 1;
+}
+.otherPersonal,
+.otherPersonalInner {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.otherPersonalInner {
+  height: 3px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.otherPersonal {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  text-align: justify;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .otherInformation {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .otherInformation {
+    font-size: var(--font-size-lgi);
+  }
+}

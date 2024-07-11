@@ -1,0 +1,48 @@
+.instructorPhotoIcon {
+  width: 145px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-61xl);
+  max-height: 100%;
+  object-fit: contain;
+}
+.batch202223,
+.mtech,
+.susmitaSen {
+  margin: 0;
+}
+.susmitaSenMtechContainer {
+  flex: 1;
+  position: relative;
+}
+.instructor,
+.instructorDetails,
+.instructorName {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.instructorName {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-8xl);
+}
+.instructor,
+.instructorDetails {
+  flex-direction: column;
+}
+.instructorDetails {
+  align-self: stretch;
+  flex: 1;
+  gap: var(--gap-6xs);
+}
+.instructor {
+  height: 192px;
+  width: 177px;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightseagreen-200);
+  font-family: var(--font-inter);
+}

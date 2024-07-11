@@ -1,0 +1,113 @@
+.frameChild {
+  height: 67px;
+  width: 1428px;
+  position: relative;
+  background-color: var(--color-paleturquoise-200);
+  display: none;
+  max-width: 100%;
+}
+.academicProjects {
+  width: 303px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: var(--color-paleturquoise-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-3xl) var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameItem,
+.frameWrapper {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 var(--padding-12xs);
+  max-width: 100%;
+}
+.frameItem {
+  height: 3px;
+  position: relative;
+  border-top: 3px dashed var(--color-black);
+  z-index: 1;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  max-width: 100%;
+}
+.platform,
+.title {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.description {
+  margin: 0;
+}
+.titlePlatformContainer {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameParent,
+.projectDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.projectDetails {
+  width: 1412px;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: justify;
+}
+.frameParent {
+  margin-right: -11px;
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-36xl);
+  max-width: 101%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .academicProjects,
+  .titlePlatformContainer {
+    font-size: var(--font-size-7xl);
+  }
+  .frameParent {
+    gap: var(--gap-8xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .academicProjects,
+  .titlePlatformContainer {
+    font-size: var(--font-size-lgi);
+  }
+}

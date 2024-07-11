@@ -1,0 +1,66 @@
+.cdac2Icon {
+  height: 86px;
+  width: 61px;
+  position: relative;
+  object-fit: cover;
+}
+.centreForDevelopment {
+  margin: 0;
+  align-self: stretch;
+  height: 47px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.cdacTitleContainer,
+.contentContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cdacTitleContainer {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+}
+.contentContainer {
+  width: 365px;
+  flex-direction: row;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.icons8User902 {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  object-fit: cover;
+}
+.mainContainer,
+.userIconContainer {
+  display: flex;
+  align-items: flex-start;
+}
+.userIconContainer {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.mainContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .centreForDevelopment {
+    display: none;
+  }
+}

@@ -1,0 +1,83 @@
+.attendance,
+.blankLine,
+.extraCurricular {
+  margin: 0;
+}
+.extraCurricularContainer {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.extraCurricularAttendanceWrapper {
+  width: 1393px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl) var(--padding-13xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.dateOfBirth {
+  margin: 0;
+}
+.foreignLanguages,
+.gender,
+.nationality,
+.passport {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.languagesKnown {
+  margin: 0;
+}
+.dateOfBirthContainer {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.dateOfBirthGenderNatioWrapper,
+.otherPersonalParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dateOfBirthGenderNatioWrapper {
+  width: 1390px;
+  flex-direction: row;
+  padding: 0 var(--padding-3xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.otherPersonalParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-13xl);
+  max-width: 101%;
+  flex-shrink: 0;
+  text-align: justify;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .dateOfBirthContainer,
+  .extraCurricularContainer {
+    font-size: var(--font-size-7xl);
+  }
+  .otherPersonalParent {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .dateOfBirthContainer,
+  .extraCurricularContainer {
+    font-size: var(--font-size-lgi);
+  }
+}

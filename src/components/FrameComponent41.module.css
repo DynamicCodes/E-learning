@@ -1,0 +1,143 @@
+.phppw0r3m1Icon {
+  height: 160px;
+  width: 164px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.cDacsAdvancedComputingTra,
+.commonCampusPlacement {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.span {
+  white-space: pre-wrap;
+}
+.resume1 {
+  font-family: var(--font-inter);
+}
+.resume {
+  margin: 0;
+}
+.cDacsAdvancedComputingContainer {
+  align-self: stretch;
+  height: 167px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.cDacsAdvancedComputingTraWrapper {
+  width: 739px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-30xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.images1Icon {
+  height: 194px;
+  width: 194px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.frameWrapper,
+.phppw0r3m1Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.phppw0r3m1Parent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.frameWrapper {
+  width: 1409px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xl);
+  box-sizing: border-box;
+}
+.frameChild {
+  height: 67px;
+  width: 1428px;
+  position: relative;
+  background-color: var(--color-paleturquoise-200);
+  display: none;
+  max-width: 100%;
+}
+.basicInformation {
+  width: 278px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: var(--color-paleturquoise-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-xs) var(--padding-4xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameContainer,
+.frameItem {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+  max-width: 100%;
+}
+.frameItem {
+  height: 3px;
+  position: relative;
+  border-top: 3px dashed var(--color-black);
+  z-index: 1;
+}
+.frameGroup,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  max-width: 100%;
+}
+.frameParent {
+  align-items: flex-end;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .basicInformation {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .basicInformation {
+    font-size: var(--font-size-lgi);
+  }
+}

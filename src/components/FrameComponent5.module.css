@@ -1,0 +1,188 @@
+.placements {
+  margin: 0;
+  height: 70px;
+  width: 338px;
+  position: relative;
+  font-size: inherit;
+  display: inline-block;
+  font-style: italic;
+  font-weight: 400;
+  font-family: inherit;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.placementTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-7xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.studentsCrackedTheir {
+  margin: 0;
+  align-self: stretch;
+  height: 36px;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  display: inline-block;
+  font-style: italic;
+  font-weight: 400;
+  font-family: inherit;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.placementHeader {
+  width: 766px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.statBarsIcon,
+.statBarsIcon1,
+.statIconChild {
+  position: relative;
+  border-radius: var(--br-67xl);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.statBarsIcon,
+.statBarsIcon1 {
+  max-height: 100%;
+  min-height: 332px;
+}
+.statIconChild {
+  height: 332px;
+  flex: 1;
+}
+.blankLine {
+  margin: 0;
+}
+.text {
+  height: 94px;
+  width: 256px;
+  position: absolute;
+  margin: 0 !important;
+  right: -16px;
+  bottom: 27px;
+  display: inline-block;
+  font-weight: 700;
+  z-index: 2;
+}
+.statIcon,
+.statItem {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.statIcon {
+  display: flex;
+  position: relative;
+}
+.statItem {
+  width: 867px;
+  display: grid;
+  gap: var(--gap-mini);
+  max-width: 100%;
+  grid-template-columns: repeat(3, minmax(209px, 1fr));
+}
+.statsChild {
+  height: 100%;
+  width: 279px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -186px;
+  bottom: 0;
+  border-radius: var(--br-67xl);
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.placementContent,
+.stats {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.stats {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+}
+.placementContent {
+  width: 975px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-49xl);
+}
+.placementContentWrapper {
+  width: 1263px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-29xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-lightseagreen-200);
+  font-family: var(--font-arimo);
+}
+@media screen and (max-width: 1125px) {
+  .placementContent {
+    gap: var(--gap-15xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .placements {
+    font-size: var(--font-size-32xl);
+  }
+  .studentsCrackedTheir {
+    font-size: var(--font-size-13xl);
+  }
+  .text {
+    font-size: var(--font-size-7xl);
+  }
+  .statItem {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(209px, 363px));
+  }
+  .placementContent {
+    gap: var(--gap-mid);
+  }
+  .placementContentWrapper {
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .placements {
+    font-size: var(--font-size-19xl);
+  }
+  .studentsCrackedTheir {
+    font-size: var(--font-size-5xl);
+  }
+  .statBarsIcon,
+  .statBarsIcon1 {
+    width: 100%;
+  }
+  .text {
+    font-size: var(--font-size-lgi);
+  }
+  .statItem {
+    grid-template-columns: minmax(209px, 1fr);
+  }
+}

@@ -1,0 +1,326 @@
+.address,
+.course,
+.name,
+.practiceRank {
+  margin: 0;
+}
+.nameCourseContainer {
+  align-self: stretch;
+  height: 278px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.starsIcon,
+.starsIcon1 {
+  width: 35px;
+  height: 34px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 17px);
+  left: 243px;
+  z-index: 4;
+}
+.starsIcon1 {
+  left: 278px;
+  z-index: 5;
+}
+.starsIcon2 {
+  left: 313px;
+  z-index: 6;
+}
+.starsIcon2,
+.starsIcon3,
+.starsIcon4 {
+  width: 35px;
+  height: 34px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 17px);
+}
+.starsIcon3 {
+  left: 348px;
+  z-index: 7;
+}
+.starsIcon4 {
+  right: 340px;
+  z-index: 8;
+}
+.starRating {
+  width: 758px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  min-width: 758px;
+  max-width: 100%;
+}
+.frameChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-10xl);
+  background-color: var(--color-gainsboro-100);
+  z-index: 1;
+}
+.rectangleWrapper {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-26xl) 0 var(--padding-21xl);
+}
+.ccppId {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  height: 280px;
+  gap: var(--gap-lg);
+}
+.frameContainer {
+  height: 331px;
+  width: 293px;
+  min-width: 293px;
+}
+.frameWrapper,
+.starRatingParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.starRatingParent {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xl) 0 var(--padding-lg);
+  box-sizing: border-box;
+}
+.frameItem {
+  height: 67px;
+  width: 1428px;
+  position: relative;
+  background-color: var(--color-paleturquoise-200);
+  display: none;
+  max-width: 100%;
+}
+.pgDac {
+  width: 274px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.frameWrapper1,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: var(--color-paleturquoise-200);
+  padding: var(--padding-mid) var(--padding-base) var(--padding-3xs);
+  z-index: 2;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  padding: 0 var(--padding-7xs);
+}
+.frameInner {
+  height: 3px;
+  position: relative;
+  border-top: 3px dashed var(--color-black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.frameDiv,
+.frameInner,
+.sno {
+  align-self: stretch;
+}
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-mini);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sno {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.snoWrapper {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.module {
+  align-self: stretch;
+  position: relative;
+  z-index: 2;
+}
+.moduleWrapper {
+  width: 245px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.maximumMarksTheory {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 263px;
+  max-width: 100%;
+  z-index: 2;
+}
+.obtainedMarks {
+  align-self: stretch;
+  position: relative;
+  z-index: 2;
+}
+.obtainedMarksWrapper {
+  width: 319px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.maximumMarksTheoryParent {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  min-width: 499px;
+}
+.frameParent1,
+.frameParent2,
+.maximumMarksTheoryParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent2 {
+  width: 1119px;
+  justify-content: flex-start;
+  gap: var(--gap-87xl);
+  flex-shrink: 0;
+}
+.frameParent1 {
+  width: 1412px;
+  justify-content: space-between;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1275px) {
+  .frameContainer,
+  .starRating {
+    flex: 1;
+  }
+  .starRatingParent {
+    flex-wrap: wrap;
+  }
+  .frameParent2 {
+    gap: var(--gap-34xl);
+  }
+  .frameParent1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .starRating {
+    min-width: 100%;
+  }
+  .frameParent2 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ccppId,
+  .maximumMarksTheory,
+  .module,
+  .nameCourseContainer,
+  .obtainedMarks,
+  .pgDac,
+  .sno {
+    font-size: var(--font-size-7xl);
+  }
+  .maximumMarksTheoryParent {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .frameParent2 {
+    gap: var(--gap-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .nameCourseContainer {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangleWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .ccppId,
+  .maximumMarksTheory,
+  .module,
+  .obtainedMarks,
+  .pgDac,
+  .sno {
+    font-size: var(--font-size-lgi);
+  }
+  .maximumMarksTheoryParent {
+    gap: var(--gap-3xl);
+  }
+}

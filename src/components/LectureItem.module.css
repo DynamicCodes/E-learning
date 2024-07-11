@@ -1,0 +1,173 @@
+.lectureItemChild {
+  width: 332px;
+  height: 832px;
+  position: relative;
+  border-radius: var(--br-24xl);
+  background-color: var(--color-paleturquoise-100);
+  display: none;
+  max-width: 100%;
+}
+.classes,
+.dashboard,
+.discussion1,
+.lecture {
+  position: relative;
+  font-weight: 800;
+  z-index: 1;
+}
+.lecture {
+  margin: 0;
+  width: 230px;
+  font-size: var(--font-size-21xl);
+  font-family: inherit;
+  display: inline-block;
+}
+.classes,
+.dashboard,
+.discussion1 {
+  align-self: stretch;
+}
+.discussion {
+  height: 141px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+}
+.discussion,
+.insights,
+.resource {
+  align-self: stretch;
+}
+.insights,
+.mySchedule,
+.resource {
+  position: relative;
+  font-weight: 800;
+  z-index: 1;
+}
+.insightsItem,
+.schedule {
+  align-self: stretch;
+  flex-direction: column;
+}
+.schedule {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+}
+.insightsItem {
+  gap: var(--gap-29xl);
+}
+.dashboardContainer,
+.dashboardItem,
+.insightsItem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dashboardContainer {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+}
+.dashboardItem {
+  width: 196px;
+  flex-direction: row;
+  padding: 0 var(--padding-lg) var(--padding-mid);
+  box-sizing: border-box;
+}
+.icons8User903,
+.logOut {
+  position: relative;
+  z-index: 1;
+}
+.icons8User903 {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+}
+.logOut {
+  align-self: stretch;
+  font-weight: 800;
+}
+.logOutWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) 0 0;
+  box-sizing: border-box;
+  min-width: 104px;
+}
+.userLogout {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-mini);
+}
+.lectureItem,
+.user,
+.userLogout {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-3xs);
+}
+.lectureItem {
+  width: 332px;
+  border-radius: var(--br-24xl);
+  background-color: var(--color-paleturquoise-100);
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-18xl) var(--padding-62xl)
+    var(--padding-31xl);
+  box-sizing: border-box;
+  gap: var(--gap-66xl);
+  min-width: 332px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .lecture {
+    font-size: var(--font-size-13xl);
+  }
+  .lectureItem {
+    flex: 1;
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-34xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .lecture {
+    font-size: var(--font-size-5xl);
+  }
+  .classes,
+  .dashboard,
+  .discussion1,
+  .insights,
+  .logOut,
+  .mySchedule,
+  .resource {
+    font-size: var(--font-size-lgi);
+  }
+  .userLogout {
+    flex-wrap: wrap;
+  }
+  .lectureItem {
+    gap: var(--gap-23xl);
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}

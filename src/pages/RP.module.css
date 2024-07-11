@@ -1,0 +1,21 @@
+.rp {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-lightcyan);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-55xl) var(--padding-xl) var(--padding-55xl)
+    var(--padding-44xl);
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .rp {
+    padding-left: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
